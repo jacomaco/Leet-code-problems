@@ -16,7 +16,7 @@ public class QuickSort {
     }
 
     private int partition(int[] array, int low, int high) { // Lomuto scheme
-        int pivot = array[high]; // One of many ways to choose a pivot
+        int pivot = low + (int)(Math.random() * (high - low + 1)); // int pivot = array[high]; 
         int i = low - 1;
         for (int j = low; j < high; j++) { // j itterates though all exempt the last element in the array
             if (array[j] <= pivot) {
