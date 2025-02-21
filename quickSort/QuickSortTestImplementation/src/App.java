@@ -5,7 +5,8 @@ public class App {
         quickSort.quickSort(arr);
         
         for (int i : arr) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
     }
 }
