@@ -1,0 +1,12 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "jacob",
+  "type": "commonjs",
+  "main": "2620Counter.js",
+  "scripts": {
+    "test": "vitest"
+  }
+}
