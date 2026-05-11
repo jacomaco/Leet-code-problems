@@ -8,5 +8,8 @@
   "main": "2620Counter.js",
   "scripts": {
     "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
